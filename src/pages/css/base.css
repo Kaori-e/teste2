@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Qwitcher+Grypen&family=Raleway:wght@400;500;600&family=Ubuntu:wght@300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+.container{
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+}
+
+.form-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a8edea;
+    padding: 1rem;
+}
+
+.form-img img{
+    width: 20rem;
+}
+
+.forms{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 3rem;
+}
+
+.form-header{
+    margin-bottom: 3rem;
+    /* display: flex; */
+    justify-content: space-between;
+}
+
+.enviar-btn{
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.enviar-btn button{
+    border: none;
+    background-color: rgb(68, 221, 241);
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enviar-btn button:hover{
+    background-color: aquamarine;
+}
+
+.enviar-btn button a{
+    text-decoration: none;
+    font-weight: 500;
+    color: antiquewhite;
+}
+
+.input-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+
+}
+
+.input-box input{
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #a8edea;
+}
+
+.input-box label,
+.gender-title h6,
+.answer-title h6{
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: black;
+}
+
+.gender-group,
+.answer-group{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.62rem;
+    padding: 0 0.5rem;
+}
+
+.gender-input,
+.answer-input{
+    display: flex;
+    align-items: center;
+}
+
+.gender-input input,
+.answer-input input{
+    margin-right: 0.35rem;
+}
+
+@media screen and (max-widht:1330px) {
+    .form-img{
+        display: none;
+    }
+    .container{
+        width: 50%;
+    }
+    .form{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
